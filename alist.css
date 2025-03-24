@@ -4,9 +4,13 @@ TheSmallHanCat
 Koyuki
 用于文件目录美化以及背景图
 */
-
+@media screen and (max-width: 960px) {
+  body::before {
+    background-image: url('https://kasuie.cc/api/img/bg?type=mobile&size=regular'); /* 竖屏背景图片，可自行替换 */
+  }
+}
 body{
-	background-image:url('http://api.hancat.work/cloud/api.php');//将此处替换为你自己的背景图api地址
+	background-image:url('https://kasuie.cc/api/img/bg?size=regular');//将此处替换为你自己的背景图api地址
 	background-repeat:no-repeat;
 	background-size:cover;
 	background-attachment: fixed;
